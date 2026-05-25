@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matemáticas que Resuelven Problemas</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Matemáticas que Resuelven Problemas</h1>
+        <p>Aplicación de Fibonacci y Números Primos en la vida real</p>
+        <p><strong>Estudiante:</strong> Henry Quispe Ulo</p>
+    </header>
+
+    <main class="contenedor">
+
+        <section class="card">
+            <h2>📌 Contexto del Problema</h2>
+            <p>
+                En el mundo real, las matemáticas ayudan a resolver problemas.
+                La serie de Fibonacci puede aplicarse al ahorro progresivo,
+                mientras que los números primos son importantes en seguridad informática.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>🧠 Explicación del Algoritmo</h2>
+            <p>
+                Se usa la serie Fibonacci para calcular cuánto dinero podría ahorrar
+                una persona mes a mes siguiendo un patrón creciente.
+            </p>
+
+            <p>
+                También se verifica si un número es primo para determinar si puede
+                considerarse un código más seguro.
+            </p>
+        </section>
+
+        <!-- FIBONACCI -->
+        <section class="card">
+            <h2>💰 Ahorro con Fibonacci</h2>
+
+            <label>Ingrese cantidad de meses:</label>
+            <input type="number" id="meses" placeholder="Ejemplo: 6">
+
+            <button onclick="calcularFibonacci()">
+                Calcular ahorro
+            </button>
+
+            <div id="resultadoFibonacci" class="resultado"></div>
+        </section>
+
+        <!-- NUMEROS PRIMOS -->
+        <section class="card">
+            <h2>🔐 Seguridad con Números Primos</h2>
+
+            <label>Ingrese un número:</label>
+            <input type="number" id="numero" placeholder="Ejemplo: 17">
+
+            <button onclick="verificarPrimo()">
+                Verificar número
+            </button>
+
+            <div id="resultadoPrimo" class="resultado"></div>
+        </section>
+
+        <section class="card">
+            <h2>✅ Conclusión</h2>
+            <p>
+                Este proyecto demuestra cómo las matemáticas pueden aplicarse
+                a situaciones reales como el ahorro progresivo y la seguridad
+                de códigos numéricos.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>🔗 Enlaces</h2>
+            <p>Repositorio GitHub: Pega tu link aquí</p>
+            <p>Página publicada: Pega tu link aquí</p>
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
